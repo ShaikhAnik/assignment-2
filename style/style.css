@@ -196,3 +196,38 @@
 .badge2-contents{
     padding: 15px 11px 15px 20px;
 }
+/*habit styles start */
+
+.habit{
+    padding-top: 100px;
+}
+.habit-title{
+    text-align: center;
+    margin-bottom: 14px;
+}
+.habit-desc{
+    text-align: center;
+}
+.habit-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 58px;
+}
+.card1{
+    width: 231px;
+    height: 274px;
+    text-align: center;
+}
+.card1 h4 {
+    margin-top: 30px;
+    font-size: 1.125rem ;
+    font-weight: 600;
+}
+.card1 p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-top: 6px;
+}
+.card1 img{
+    border-radius: 50%;
+}
