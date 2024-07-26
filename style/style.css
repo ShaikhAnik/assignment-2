@@ -111,3 +111,88 @@
 .nav_bar, .banner, .habit-contents , .run-content , .meet-contents, .footer-section{
     max-width: 1156px;
 }
+
+/* Banner styles */
+
+.banner-content{
+    align-items: center;
+}
+.banner-text{
+    max-width: 498px;
+    margin-top: 96px;
+    margin-bottom: 76px;
+    margin-left: 0px;
+}
+.banner-title{
+    font-size: 4.875rem;
+    font-weight: 900;
+}
+.fancy-text{
+    font-size: 4.875rem;
+    font-weight: 900;
+}
+.banner-description{
+    font-size: 1rem ;
+    margin: 28px 0px;
+}
+.banner-img{
+    max-width: 341px;
+    margin-top: 32px;
+}
+.banner-img img{
+   width: 100%;
+}
+.btn-second{
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 224px;
+    border-radius: 42px;
+    padding: 16px 40px;
+    cursor: pointer;
+    margin-left: 14px;
+    background:none;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    display: inline-block;
+}
+.badge-txt1{
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.badge-desc1, .badge-desc2{
+    color: rgba(239, 237, 232, 0.65); 
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-badge1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    width: 193px;
+    height: 98px;
+    align-items: center;
+    margin-left: -104px;
+    margin-top: -162px;
+}
+.badge-txt2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.btn-badge2 {
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: -459px;
+    margin-right: -90px;
+}
+.badge2-contents{
+    padding: 15px 11px 15px 20px;
+}
