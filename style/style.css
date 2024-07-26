@@ -231,3 +231,98 @@
 .card1 img{
     border-radius: 50%;
 }
+/* run styles starts */
+
+.run{
+    padding: 100px 0px;
+}
+.run-content{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.run-content-text{
+    width: 443px;
+    margin-left: 54px;
+}
+.run-content-text h2 {
+    margin-bottom: 14px;
+}
+.run-content-text p{
+    margin-bottom: 34px;
+}
+
+.run-content-img{
+    width: 400px;
+    margin-right: 54px;
+}
+
+.run-content-img img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+/* Meet styles starts */
+.meet{
+    padding-bottom: 8px;
+}
+.meet-text h2, .meet-text p {
+    text-align: center;
+}
+
+.m-card h5{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.m-card-txt{
+    left: 17px;
+    position: relative;
+    top: -70px;
+
+}
+
+.m-card p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+.meet-text p{
+    margin-top: 14px;
+}
+.meet-cards{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 58px;
+    margin-bottom: 75px;
+    justify-items: center;
+
+}
+.m-card{
+    width: 359px;
+    height: 272px;
+    padding: 20px;
+
+}
+.m-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    filter: brightness(0.7);
+}
+.m-card:nth-child(2){
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.m-card:nth-child(5){
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.m-card:nth-child(6), .m-card:nth-child(4){
+    padding-top: 0px;
+}
