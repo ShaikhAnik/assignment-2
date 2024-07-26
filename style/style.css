@@ -326,3 +326,61 @@
 .m-card:nth-child(6), .m-card:nth-child(4){
     padding-top: 0px;
 }
+
+/* Footer styles */
+.footer-cont{
+    background-color: rgba(26,26,26);
+}
+.footer-section{
+    padding-top: 66px;
+    padding-bottom: 79px;
+}
+.footer-left-content{
+    width: 443px;
+    margin-left: 0px;
+}
+.footer-left-content h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 3.8rem;
+    font-weight: 800;
+}
+.footer-left-content p{
+    margin-top: 20px;
+    font-size: 0.875rem;
+    line-height: 22px;
+}
+.footer-right-content{
+    width: 514px;
+    margin-right: 0px;
+}
+.footer-right-content h4{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+.footer-right-content  ul  li a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.footer-right-content  ul  li{
+    list-style:none;
+    padding-bottom: 20px;
+}
+.get-started{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.company{
+    margin-left: 0px;
+}
+hr{
+    max-width: 1156px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.reserved p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px 0px;
+}
