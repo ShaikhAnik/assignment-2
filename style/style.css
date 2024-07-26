@@ -384,3 +384,170 @@ hr{
     text-align: center;
     padding: 20px 0px;
 }
+
+/* Media Query starts */
+
+@media screen and (max-width: 576px){
+    .hamburger-menu{
+       display: block;
+       margin: 0px;
+       color: white;
+       font-size: 1.5rem;
+    }
+    .nav-links{
+       display: none;
+    }
+    .nav_bar, 
+    .banner,
+    .habit-contents,
+    .run-content,
+    .meet-contents,
+    .footer-section,
+    .reserved
+    {
+       width: 350px;
+    }
+    .banner-content{
+       flex-direction: column;
+    }
+    .banner-title{
+       font-size: 2.25rem;
+    }
+    .banner-text{
+       margin-top: 50px;
+       margin-bottom: 50px;
+    }
+    .btn{
+        display: flex;
+     }
+     .btn-primary{
+        width: 169px;
+        font-size: 1rem;
+        padding: 17px 18px;
+    }
+    
+    .btn-second{
+        font-size: 1rem;
+        width: 169px;
+        padding: 17px 18px;
+    }
+   .banner-img{
+    margin-top: 0px;
+   }
+   .shared-description {
+    font-size: 0.9rem;
+    line-height: 20px;
+    width: 288px;
+}
+   .bgcl{
+        background: linear-gradient(180.00deg, rgb(14 14 14), rgb(0 0 0 / 85%) 100%);
+        height: 100%;
+   }
+    .banner-right-content{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .btn-badge1 {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 9px;
+        background: rgba(48, 48, 48, 0.54);
+        width: 150px;
+        height: 70px;
+       position: relative;
+       top:-149px;
+       left: 104px;
+    }
+    .circle {
+        width: 30px;
+        height: 30px;
+    }
+    .btn-badge2 {
+        width: 130px;
+        height: 70px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: -534px;
+        margin-right: 10px;
+    }
+    .badge-txt2{
+        font-size: 1.8rem;
+    }
+    .badge-desc2{
+        font-size: 0.6rem;
+    }
+    .badge-desc1{
+        font-size: 0.8rem;
+    }
+    .badge2-contents {
+        padding: 11px 9px 11px 20px;
+    }
+    .badge-txt1{
+        font-size: 1.1rem;
+    }
+    .habit{
+        padding:0px;
+    }
+    .habit-title{
+        font-size: 2rem;
+    }
+    .habit-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card1{
+        margin-bottom: 40px;
+    }
+    .run{
+        padding: 40px 0px;
+    }
+    .run-content {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .run-content-text{
+        width: 288px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .run-content-img{
+        width: 288px;
+        margin: 30px;
+    }
+    .run-content-text h2{
+        font-size: 2rem;
+        width: 273px;
+    }
+    .run-content-text h2 br {
+        display: none;
+    }
+    .mob-btn{
+        width:288px;
+    }
+    .meet-text h2{
+        font-size: 2rem;
+    }
+    .meet-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .m-card{
+        width: 310px;
+    }
+    .m-card:nth-child(2){
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .footer-section, .footer-right-content{
+        flex-direction: column;
+        width: 350px;
+    }
+    .footer-left-content{
+        width: 317px;
+    }
+    .footer-right-content{
+        margin-top: 30px;
+    }
+    .footer-section {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+ }
