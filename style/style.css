@@ -108,7 +108,7 @@
     margin-left: 0px;
 }
 
-.nav_bar, .banner, .habit-contents , .run-content , .meet-contents, .footer-section{
+.nav_bar, .banner, .habit-contents , .run-content , .meet-contents, .footer-section, .bmi-text, .bmi-contents{
     max-width: 1156px;
 }
 
@@ -263,6 +263,108 @@
 .run-content-img img{
     width: 100%;
     border-radius: 18px;
+}
+
+/* BMI calculator starts*/
+.bmi-text{
+    padding-bottom: 88px;
+    text-align: center;
+}
+.bmi-container{
+    background-color: #222222;
+}
+.bmi-contents{
+    padding-top: 52px;
+}
+.bmi{
+    padding-bottom: 88px;
+}
+.bmi-right-contents{
+    margin-right: 0px;
+    width: 577px;
+}
+.bmi-left-contents{
+    margin-left: 0px;
+}
+
+.bmi-right-contents p{
+    width: 575px;
+}
+.bmi-right-contents h4 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.bmi-left-contents h4{
+    font-size: 1.75rem;
+    font-weight: 900;
+} 
+
+table, th ,td {
+    border: 1px solid rgba(255,255,255,0.1);
+}
+table{
+    border-collapse: collapse;
+    width: 310px;
+    margin-top: 56px;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 13px 18px;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding: 13px 18px;
+}
+input[name]{
+    width: 43%;
+    padding: 20px 17px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border: none;
+}
+#activity{
+    width: 99%;
+    padding: 14px 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border: none;
+
+}
+input[type="button"]{
+    margin-bottom: 52px;
+    margin-top: 34px;
+}
+select{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+input, ::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+#gender{
+    width: 49%;
+    padding: 20px 17px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border: none;
+}
+.bmi-form{
+    margin-top: 34px;
 }
 
 /* Meet styles starts */

@@ -64,8 +64,8 @@
     </header>
 
     <main>
-        <!-- Change your habit starts-->
-        <section class=" habit bgc">
+           <!-- Change your habit starts-->
+          <section class=" habit bgc">
             <div class="habit-contents">
                 <h2 class="habit-title text-dark-color shared-title">Change Your Habits</h2>
                  <p class="habit-desc shared-description text-light-color">Your goals depends solely on
@@ -112,10 +112,70 @@
                     <img src="images/run.jpg" alt="man running">
                 </div>
             </div>
-      </section>
+           </section>
 
-       <!-- Meet section starts-->
-       <section class="bgc meet">
+            <!--Bmi calculator Starts-->
+            <section class="bgc bmi">
+            
+                    <div class="bmi-text">
+                        <h2 class="shared-title text-dark-color">BMI Calculator</h2>
+                        <p class="shared-description text-light-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    </div>
+
+                    <div class="bmi-container">
+                        <div class="bmi-contents display_flex">
+                        
+                            <div class="bmi-left-contents">
+                                <h4 class="text-dark-color">BMI Calculator Chart</h4>
+                                <table>
+                                    <tr>
+                                        <th>BMI </th>
+                                        <th>Weight Status</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Below 18.5</td>
+                                        <td>Underweight</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18.5 - 24.9</td>
+                                        <td>Healthy</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25.0 - 29.9</td>
+                                        <td>Overweight</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30.0 - and Above</td>
+                                        <td>Obese</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="bmi-right-contents">
+                                <h4 class="text-dark-color">Calculate your BMI</h4>
+                                <p class="shared-description text-light-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+
+                                <form class="bmi-form">
+                                    <input type="text" placeholder="Height/cm" name="height">
+                                    <input type="text" placeholder="Weight/kg" name="weight">
+                                    <input type="text" placeholder="Age" name="age">
+                                    <select id="gender" name="gender">
+                                        <option value="Sex">Sex</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                      </select>
+                                      <select id="activity" name="factor">
+                                        <option value="activity">Select an activity factor</option>
+                                      </select>
+                                      <input type="button" value="Calculate" class="btn-primary">
+                                      
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+              <!-- Meet section starts-->
+           <section class="bgc meet">
         <div class="meet-contents">
             <div class="meet-text">
                 <h2 class="shared-title text-dark-color">Meet Our Team</h2>
@@ -167,12 +227,12 @@
             </div>
         </div>
         </div>
-       </section>
+           </section>
 
     </main>
 
         <!-- Footer section starts-->
-        <footer class=" footer-cont">
+           <footer class=" footer-cont">
             <section class="footer-section display_flex">
                 <div class="footer-left-content">
                     <h1><i>Fitness</i></h1>
@@ -205,7 +265,7 @@
                 <hr>
                 <p class="text-light-color">All right reserved @Fitness 2024</p>
             </div>
-        </footer>
+           </footer>
         
 </body>
 </html>
