@@ -274,17 +274,21 @@
     background-color: #222222;
 }
 .bmi-contents{
-    padding-top: 52px;
+    justify-content: space-between;
+  padding-top: 52px;
 }
 .bmi{
     padding-bottom: 88px;
 }
-.bmi-right-contents{
+.bmi-right-contents {
     margin-right: 0px;
     width: 577px;
-}
-.bmi-left-contents{
     margin-left: 0px;
+}
+.bmi-left-contents {
+    margin-left: 0px;
+    width: 315px;
+    margin-right: 0px;
 }
 
 .bmi-right-contents p{
@@ -505,9 +509,13 @@ hr{
     .run-content,
     .meet-contents,
     .footer-section,
-    .reserved
+    .reserved,
+    .bmi-text,
+    .bmi-left-contents,
+    .bmi-right-contents
     {
        width: 350px;
+       margin: 0 auto;
     }
     .banner-content{
        flex-direction: column;
@@ -651,5 +659,31 @@ hr{
     .footer-section {
         padding-top: 54px;
         padding-bottom: 54px;
+    }
+
+    .bmi-contents{
+        flex-direction: column;
+    }
+    .bmi-left-contents h4 {
+        font-size: 1rem;
+    }
+    .bmi-right-contents{
+        padding-top: 42px;
+    }
+    .bmi-right-contents h4{
+        font-size: 1rem;
+    }
+    .bmi-right-contents p{
+        font-size: 0.8rem;
+        width: 350px;
+    }
+    input[name]{
+        width: 39%;
+    }
+    input[type="button"]{
+        width: 230px;
+    }
+    table{
+        margin: 56px 0px 0px 0px;
     }
  }
