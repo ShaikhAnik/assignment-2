@@ -454,6 +454,7 @@ input, ::placeholder{
     margin-bottom: 75px;
     justify-items: center;
     height: 354px;
+    padding-bottom: 15px;
 }
 .feed-card{
   
