@@ -448,7 +448,7 @@ input, ::placeholder{
 }
 .feedbacks-cards{
     border-radius: 18px;
-    border: 2px dotted rgba(255, 255, 255, 0.1);
+    background-color:rgb(68 68 68 / 65%);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 58px;
@@ -457,7 +457,7 @@ input, ::placeholder{
     height: 354px;
 }
 .feed-card{
-    width: 359px;
+  
     height: 272px;
     padding: 20px;
 }
