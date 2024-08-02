@@ -108,7 +108,7 @@
     margin-left: 0px;
 }
 
-.nav_bar, .banner, .habit-contents , .run-content , .meet-contents, .footer-section, .bmi-text, .bmi-contents{
+.nav_bar, .banner, .habit-contents , .feedbacks-contents, .run-content , .meet-contents, .footer-section, .bmi-text, .bmi-contents{
     max-width: 1156px;
 }
 
@@ -433,6 +433,49 @@ input, ::placeholder{
     padding-top: 0px;
 }
 
+
+
+/* Feedback Styles starts */
+
+.feedbacks{
+    padding-bottom: 8px;
+}
+.feedbacks-text h2 , .feedbacks-text p {
+    text-align: center;
+}
+.feedbacks-text p {
+    margin-top: 14px;
+}
+.feedbacks-cards{
+    border-radius: 18px;
+    border: 2px dotted rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 58px;
+    margin-bottom: 75px;
+    justify-items: center;
+    height: 354px;
+}
+.feed-card{
+    width: 359px;
+    height: 272px;
+    padding: 20px;
+}
+.feed-video{
+    width: 100%;
+    height: 100%;
+}
+
+.feedback-card-txt{
+    padding-top: 10px;
+}
+.feed-card-title{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.checked {
+    color: orange;
+}
 /* Footer styles */
 .footer-cont{
     background-color: rgba(26,26,26);
@@ -685,5 +728,12 @@ hr{
     }
     table{
         margin: 56px 0px 0px 0px;
+    }
+
+    .feedbacks-text h2 {
+        font-size: 2rem;
+    }
+    .feedbacks-cards{
+        grid-template-columns: repeat(1,1fr);
     }
  }
