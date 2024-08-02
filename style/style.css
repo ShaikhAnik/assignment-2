@@ -449,8 +449,7 @@ input, ::placeholder{
 .feedbacks-cards{
     border-radius: 18px;
     background-color:rgb(68 68 68 / 65%);
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
     margin-top: 58px;
     margin-bottom: 75px;
     justify-items: center;
@@ -555,7 +554,9 @@ hr{
     .reserved,
     .bmi-text,
     .bmi-left-contents,
-    .bmi-right-contents
+    .bmi-right-contents,
+    .feedbacks-text,
+    .feedbacks-cards 
     {
        width: 350px;
        margin: 0 auto;
@@ -731,9 +732,15 @@ hr{
     }
 
     .feedbacks-text h2 {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     .feedbacks-cards{
-        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        height: auto;
+        margin-top: 58px;
+        margin-bottom: 58px;
+    }
+    .feed-card{
+     height: auto;
     }
  }
