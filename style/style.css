@@ -709,6 +709,10 @@ hr{
     .bmi-contents{
         flex-direction: column;
     }
+    .bmi-text h2{
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
     .bmi-left-contents h4 {
         font-size: 1rem;
     }
